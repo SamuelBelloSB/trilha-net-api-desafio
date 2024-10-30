@@ -9,7 +9,17 @@
     }
   },
   "profiles": {
-    "TrilhaApiDesafio": {
+    "TrilhaApiDesafioHttp": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5170",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "TrilhaApiDesafioHttps": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
